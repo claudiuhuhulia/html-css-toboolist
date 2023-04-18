@@ -66,16 +66,33 @@ main{
     vertical-align: middle;
 }
 ul{
-    list-style-position: inside;
+    list-style-type:none; 
     margin-top: 20px;
     font-size: 18px;
 }
+
 .tipology{
     background-color: #45abea;
     border-radius: 20px;
     color: white;
-    font-size: 1em;
+    font-size: 0.8em;
     display: inline;
     padding: 6px;
 
+}
+li::before {
+    content: "\2713";
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    font-size: 20px;
+    text-align: center;
+}
+li{
+    line-height: 20px;
+   
 }
