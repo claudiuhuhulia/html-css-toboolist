@@ -10,12 +10,11 @@ body{
 }
 
 .container{
-width: 1080px;
+width: 900px;
 background-color: white;
 margin: 30px auto;
 border: 1px ;
 border-radius: 5px 5px 0px 0px;
-
 }
 
 h1{
@@ -23,20 +22,17 @@ h1{
     font-weight: 900;
     font-size: 3em;
     vertical-align: middle;
-    
 }
 .logo{
    height: 70px;
    vertical-align: middle;
 }
 
-
 header{
     background-color: white;
 }
 nav{
-    padding: 15px 6px;
-    margin-left: 25px;
+    padding: 15px 35px;
 }
 
 button{
@@ -46,9 +42,7 @@ button{
     vertical-align: middle;
     border-radius: 5px;
     font-size: 1em;
-   
 }
-
 #add-task{
     background-color:  hsl(209.6deg 100% 55.88%);
     display: inline;
@@ -60,10 +54,28 @@ color: gray;
 border: 1px solid grey;
 width: 110px;
 background-color: white;
-
-
+}
+main{
+    margin-top: 3px;
+    border-top: 2px solid gray;
+    padding: 60px 35px;
+}
+.list-title{
+    display: inline;
+    font-size: 1.7em;
+    vertical-align: middle;
+}
+ul{
+    list-style-position: inside;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.tipology{
+    background-color: #45abea;
+    border-radius: 20px;
+    color: white;
+    font-size: 1em;
+    display: inline;
+    padding: 6px;
 
 }
-
-
-
