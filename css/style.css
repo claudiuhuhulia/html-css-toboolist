@@ -17,6 +17,11 @@ border: 1px ;
 border-radius: 5px 5px 0px 0px;
 }
 
+h3{
+    display: inline;
+    vertical-align: middle; 
+    font-size: 1em;
+}
 h1{
     display: inline;
     font-weight: 900;
@@ -61,14 +66,14 @@ main{
     padding: 60px 35px;
 }
 .list-title{
-    display: inline;
     font-size: 1.7em;
-    vertical-align: middle;
+
 }
 ul{
     list-style-type:none; 
     margin-top: 20px;
     font-size: 18px;
+    margin-bottom: 40px;
 }
 
 .tipology{
@@ -80,7 +85,7 @@ ul{
     padding: 6px;
 
 }
-li::before {
+ .done::before {
     content: "\2713";
     border: 1px solid green;
     border-radius: 50%;
@@ -94,5 +99,36 @@ li::before {
 }
 li{
     line-height: 20px;
-   
+    margin-bottom: 30px;
+}
+
+#triangle{
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+#violet{
+    background-color: violet;
+}
+
+#green{
+    background-color: green;
+}
+
+ .wrong::before{
+    content: "\2613";
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    font-size: 20px;
+    text-align: center
+}
+
+#orange{
+    background-color:orange;
+
 }
