@@ -14,7 +14,7 @@ width: 900px;
 background-color: white;
 margin: 30px auto;
 border: 1px ;
-border-radius: 5px 5px 0px 0px;
+border-radius: 5px 5px 5px 5px;
 }
 
 h3{
@@ -130,5 +130,10 @@ li{
 
 #orange{
     background-color:orange;
-
+}
+#purple{
+    background-color: purple;
+}
+#greeny{
+    background-color: rgb(151, 153, 14);
 }
