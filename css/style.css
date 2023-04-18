@@ -76,13 +76,14 @@ ul{
     margin-bottom: 40px;
 }
 
+
 .tipology{
-    background-color: #45abea;
     border-radius: 20px;
     color: white;
     font-size: 0.8em;
     display: inline;
     padding: 6px;
+    
 
 }
  .done::before {
@@ -102,16 +103,16 @@ li{
     margin-bottom: 30px;
 }
 
-#triangle{
+.triangle{
     vertical-align: middle;
     font-size: 15px;
 }
 
-#violet{
+.tipology#violet{
     background-color: violet;
 }
 
-#green{
+.tipology.green{
     background-color: green;
 }
 
@@ -128,12 +129,15 @@ li{
     text-align: center
 }
 
-#orange{
+.tipology.orange{
     background-color:orange;
 }
-#purple{
+.tipology#purple{
     background-color: purple;
 }
-#greeny{
+.tipology#greeny{
     background-color: rgb(151, 153, 14);
+}
+.tipology.blue{
+    background-color: rgb(28, 133, 202);
 }
